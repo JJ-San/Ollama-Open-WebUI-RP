@@ -1,5 +1,5 @@
 variable "DOCKERHUB_REPO_NAME" {
-    default = "sombi/ollama-open-webui"
+    default = "jj-san/ollama-open-webui"
 }
 
 variable "PYTHON_VERSION" {
