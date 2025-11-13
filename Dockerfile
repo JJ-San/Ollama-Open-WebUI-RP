@@ -59,6 +59,7 @@ RUN pip install --no-cache-dir -U \
     numpy scipy matplotlib pandas scikit-learn seaborn requests tqdm pillow pyyaml \
     huggingface_hub hf_transfer \
     open-webui \
+    chardet \
     torch==${TORCH_VERSION} torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/${CUDA_VERSION}
 
 # Install Ollama
