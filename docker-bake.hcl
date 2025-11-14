@@ -30,7 +30,8 @@ target "_common" {
 target "_cu124" {
     inherits = ["_common"]
     args = {
-        BASE_IMAGE         = "nvidia/cuda:12.4.1-devel-ubuntu22.04"
+        // Change is on this line
+        BASE_IMAGE         = "nvidia/cuda:12.4.1-base-ubuntu22.04"
         CUDA_VERSION       = "cu124"
     }
 }
@@ -38,7 +39,8 @@ target "_cu124" {
 target "_cu126" {
     inherits = ["_common"]
     args = {
-        BASE_IMAGE         = "nvidia/cuda:12.6.3-devel-ubuntu22.04"
+        // Change is on this line
+        BASE_IMAGE         = "nvidia/cuda:12.6.3-base-ubuntu22.04"
         CUDA_VERSION       = "cu126"
     }
 }
@@ -46,7 +48,8 @@ target "_cu126" {
 target "_cu128" {
     inherits = ["_common"]
     args = {
-        BASE_IMAGE         = "nvidia/cuda:12.8.1-devel-ubuntu22.04"
+        // Change is on this line
+        BASE_IMAGE         = "nvidia/cuda:12.8.1-base-ubuntu22.04"
         CUDA_VERSION       = "cu128"
     }
 }
